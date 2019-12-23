@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Palindrome
+    </title>
+    <style>
+        form,
+        input {
+            padding: 5px 5px;
+            margin: 5px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>PALINDROME CHECKER</h1>
+    </center>
+
+    <div class="string">
+        <h2>Check a word</h2>
+        <form name="stringPal" onsubmit="Palindrome()">
+            <label>Enter a word:</label><br />
+            <input id="T" type="text" name="text"><br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <div class="num">
+        <h2>Check a number</h2>
+        <form name="numPal" onsubmit="Palindrome()">
+            <label>Enter a number:</label><br />
+            <input id="N" type="number" name="number"><br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+<script src="palindrome.js"></script>
+
+</html>
