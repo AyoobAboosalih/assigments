@@ -1,1 +1,2 @@
-# Run npn install
+# Run npn install followed by
+# npm run
