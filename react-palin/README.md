@@ -1,2 +1,2 @@
-# Run npn install followed by
-# npm start
+# 1) Run npn install 
+# 2) Run npm start
