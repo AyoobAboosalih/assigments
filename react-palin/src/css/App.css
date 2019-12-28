@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+   font-family: 'Satisfy',cursive;
+}
+
